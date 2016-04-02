@@ -4,7 +4,7 @@
 body{
 	background: #000;
 	color: rgba(255,255,255,0.8);
-	font-family: 'Bitter','Myriad Pro', Arial, sans-serif;
+	font-family: 'Bitter','Myriad Pro', 'Raleway', sans-serif;
 	font-size: 15px;
 }
 a{
@@ -40,7 +40,7 @@ h1 span{
 }
 /* Header Style */
 .header{
-	font-family:'Arial Narrow', Arial, sans-serif;
+	font-family:'Raleway', 'Bitter', sans-serif;
 	line-height: 24px;
 	font-size: 11px;
 	background: #000;
@@ -79,7 +79,7 @@ p.demos a{
 	padding: 2px 4px;
 	background: #fff;
 	color: #777;
-	font-family:'Arial Narrow', Arial, sans-serif;
+	font-family:'Raleway', 'Bitter', sans-serif;
 	text-transform: uppercase;
 	font-size: 11px;
 	box-shadow: 1px 1px 4px rgba(0,0,0,0.2);

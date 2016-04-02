@@ -1,6 +1,6 @@
 body {
-	background: #222 url(../images/micro_carbon.png) repeat top left;
-	font-family: 'Terminal Dosis', Arial, sans-serif;
+	background: #222 url(../img/micro_carbon.png) repeat top left;
+	font-family: 'Terminal Dosis', 'Raleway', sans-serif;
 	color: #f6e7ce;
 }
 .letter-container {
@@ -12,7 +12,7 @@ body {
 }
 .letter-container h2 {
 	text-align: center;
-	font-family: 'Niconne', Arial, sans-serif;
+	font-family: 'Niconne', 'Raleway', sans-serif;
 	letter-spacing: 3px;
 }
 .letter-container h2 a {
@@ -21,11 +21,11 @@ body {
 	line-height: 160px;
 	display: block;
 	padding-bottom: 30px;
-	-webkit-mask: url(../images/mask.png) repeat;
-	-o-mask: url(../images/mask.png) repeat;
-	-moz-mask: url(../images/mask.png) repeat;
-	-ms-mask: url(../images/mask.png) repeat;
-	mask: url(../images/mask.png) repeat;
+	-webkit-mask: url(../img/mask.png) repeat;
+	-o-mask: url(../img/mask.png) repeat;
+	-moz-mask: url(../img/mask.png) repeat;
+	-ms-mask: url(../img/mask.png) repeat;
+	mask: url(../img/mask.png) repeat;
 }
 .letter-container h2 a span {
 	color: #fff;

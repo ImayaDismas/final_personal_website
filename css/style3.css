@@ -81,7 +81,7 @@ h1.main {
 .sp-wrap span.sp-mid {
 	font-family: 'MisoBold';
 	text-transform: uppercase;
-	font-size: 120px;
+	font-size: 115px;
 	line-height: 130px;
 	position: relative;
 }
@@ -155,7 +155,7 @@ h1.main {
 	animation: fadeIn 1s linear 6.6s backwards;
 }
 .sp-full a {
-	background: #000;
+	background: #A4C639;
 	color: #fff;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -163,6 +163,7 @@ h1.main {
 	padding: 15px 40px;
 	display: inline-block;
 	font-size: 40px;
+   font-family: 'MisoBold', 'Raleway', sans-serif;
 	margin-top: 150px;
 	-webkit-animation: zoomIn 0.7s ease-in-out 7s backwards;
 	-moz-animation: zoomIn 0.7s ease-in-out 7s backwards;
@@ -174,6 +175,10 @@ h1.main {
 	padding: 0px 50px 0px 0px;
 	float: left;
 	text-align: left;
+    font-size: 36px;
+	line-height: 10px;
+	font-family: 'Terminal Dosis', 'Raleway', sans-serif;
+	padding-bottom: 30px;
 }
 .sp-full a:hover {
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";

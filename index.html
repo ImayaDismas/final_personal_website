@@ -120,10 +120,52 @@
                 <script src="js/app.js"></script>
                 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
                 <script type="text/javascript" src="js/jquery.lettering.js"></script>
+                <script src="js/classie.js"></script>
+		        <script src="js/main.js"></script>
                 <script type="text/javascript">
                     $(function() {
                         $("#letter-container h2 a").lettering();
                     });
+                </script>
+                <script>
+                    (function() {
+                        new Slideshow( document.getElementById( 'slideshow-1' ) );
+                        setTimeout( function() {
+                            new Slideshow( document.getElementById( 'slideshow-2' ) );
+                        }, 1750 );
+
+                        /* Mockup responsiveness */
+                        var body = docElem = window.document.documentElement,
+                            wrap = document.getElementById( 'wrap' ),
+                            mockup = wrap.querySelector( '.mockup' ),
+                            mockupWidth = mockup.offsetWidth;
+
+                        scaleMockup();
+
+                        function scaleMockup() {
+                            var wrapWidth = wrap.offsetWidth,
+                                val = wrapWidth / mockupWidth;
+
+                            mockup.style.transform = 'scale3d(' + val + ', ' + val + ', 1)';
+                        }
+
+                        window.addEventListener( 'resize', resizeHandler );
+
+                        function resizeHandler() {
+                            function delayed() {
+                                resize();
+                                resizeTimeout = null;
+                            }
+                            if ( typeof resizeTimeout != 'undefined' ) {
+                                clearTimeout( resizeTimeout );
+                            }
+                            resizeTimeout = setTimeout( delayed, 50 );
+                        }
+
+                        function resize() {
+                            scaleMockup();
+                        }
+                    })();
                 </script>
                 <script type="text/javascript">
                    function autorun()

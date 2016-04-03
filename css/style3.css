@@ -21,8 +21,9 @@ h1.main {
 	margin-top: 5%;
 }
 .sp-content {
-	width: 105%;
+	width: 120%;
 	height: 500px;
+    margin-left: -131px;
 	position: relative;
 	-webkit-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
 	-moz-animation: open 0.4s linear forwards, squeeze 0.6s linear 5.5s forwards;
@@ -57,8 +58,8 @@ h1.main {
     padding-left:20px; 
 }
 .sp-left {
-    padding-right:40px; 
-    
+    padding-right:10px; 
+    text-align: right;
 }
 
 .sp-wrap span {
@@ -105,7 +106,11 @@ h1.main {
 }
 .sp-right span {
 	text-align: left;
-    padding-left: 35px;
+    padding-left: 5px;
+}
+.sp-left span {
+	text-align: right;
+    padding-right: 5px;
 }
 .sp-right span.sp-top {
 	-webkit-animation: slideRight 0.5s ease-in 2s backwards, fadeOut 1s linear 4.4s backwards;
@@ -163,7 +168,7 @@ h1.main {
 	padding: 15px 40px;
 	display: inline-block;
 	font-size: 40px;
-   font-family: 'MisoBold', 'Raleway', sans-serif;
+    font-family: 'MisoBold', 'Raleway', sans-serif;
 	margin-top: 150px;
 	-webkit-animation: zoomIn 0.7s ease-in-out 7s backwards;
 	-moz-animation: zoomIn 0.7s ease-in-out 7s backwards;
@@ -175,9 +180,9 @@ h1.main {
 	padding: 0px 50px 0px 0px;
 	float: left;
 	text-align: left;
-    font-size: 36px;
-	line-height: 10px;
-	font-family: 'Terminal Dosis', 'Raleway', sans-serif;
+    font-size: 64px;
+	line-height: 50px;
+	font-family: 'Niconne', 'Raleway', sans-serif;
 	padding-bottom: 30px;
 }
 .sp-full a:hover {

@@ -1,12 +1,12 @@
 body {
 	background: #222 url(../img/micro_carbon.png) repeat top left;
 	font-family: 'Terminal Dosis', 'Raleway', sans-serif;
-	color: #f6e7ce;
+	color:aliceblue;
 }
 .letter-container {
 	border-bottom: 1px dashed rgba(255,255,255,0.3);
 	border-top: 1px dashed rgba(255,255,255,0.3);
-	margin: 20px;
+	margin: 40px;
 	padding: 20px;
 	height: 540px;
 }

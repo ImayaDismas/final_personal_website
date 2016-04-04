@@ -19,6 +19,7 @@
                 <link rel="stylesheet" type="text/css" href="css/demo2.css" />
                 <link rel="stylesheet" type="text/css" href="css/style6.css" />
                 <link rel="stylesheet" type="text/css" href="css/style3.css" />
+                <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" />
                 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
                 <link rel="stylesheet" type="text/css" href="css/animate.css" />
 		        <link rel="stylesheet" type="text/css" href="css/mockup4.css" />
@@ -39,7 +40,8 @@
                 </script>
                 <!--    Google Annalytics Ends here !!! -->
             </head>
-            <body class="demo-4">
+            <body>
+               
                  <div class="row">
                     <div class="small-12 columns">
                        <div id="letter-container" class="letter-container">
@@ -70,39 +72,53 @@
                     </div>
                 </div>
                 </br></br>
-                <div class="row">
-                    <div class="small-12 columns">
-                      
-                       
-                       <div id="wrap" class="wrap">
-                            <div class="mockup">
-                                <img class="mockup__img" src="img/mockup4.jpg" />
-                                <div class="mobile">
-                                    <ul id="slideshow-1" class="slideshow">
-                                        <li class="slideshow__item"><img src="img/small/1.png"/></li>
-                                        <li class="slideshow__item"><img src="img/small/2.png"/></li>
-                                        <li class="slideshow__item"><img src="img/small/3.png"/></li>
-                                        <li class="slideshow__item"><img src="img/small/4.png"/></li>
-                                    </ul>
-                                </div>
-                                <div class="screen">
-                                    <ul id="slideshow-2" class="slideshow">
-                                        <li class="slideshow__item current"><img src="img/large/1.png"/></li>
-                                        <li class="slideshow__item"><img src="img/large/2.png"/></li>
-                                        <li class="slideshow__item"><img src="img/large/3.png"/></li>
-                                        <li class="slideshow__item"><img src="img/large/4.png"/></li>
-                                    </ul>
-                                </div>
-                                <header class="codrops-header">
-                                    <h1><span>Mockup</span> Slideshow <i>An animated perspective mockup with 3D transforms computed with <a href="http://franklinta.com/2014/09/08/computing-css-matrix3d-transforms/">Franklin Ta's helper script</a></i></h1>
-                                </header>
+                <div class="container">
+                <div id="wrap" class="wrap">
+				<div class="mockup">
+					<img class="mockup__img" src="img/mockup4.jpg" />
+<!--
+					<div class="mobile">
+						<ul id="slideshow-1" class="slideshow">
+							<li class="slideshow__item"><img src="img/small/1.png"/></li>
+							<li class="slideshow__item"><img src="img/small/2.png"/></li>
+							<li class="slideshow__item"><img src="img/small/3.png"/></li>
+							<li class="slideshow__item"><img src="img/small/4.png"/></li>
+						</ul>
+					</div>
+					<div class="screen">
+						<ul id="slideshow-2" class="slideshow">
+							<li class="slideshow__item current"><img src="img/large/1.png"/></li>
+							<li class="slideshow__item"><img src="img/large/2.png"/></li>
+							<li class="slideshow__item"><img src="img/large/3.png"/></li>
+							<li class="slideshow__item"><img src="img/large/4.png"/></li>
+						</ul>
+					</div>
+-->
+					<header class="codrops-header">
+						<h1><span>Mockup</span> Slideshow <i>An animated perspective mockup with 3D transforms computed with <a href="http://franklinta.com/2014/09/08/computing-css-matrix3d-transforms/">Franklin Ta's helper script</a></i></h1>
+					</header>
+				</div>
+			</div>
+            </div>  
+               
+               <div class="row">
+                   <div class="small-6 columns">
+                       <div class="page">
+                            <div class="sticker">
+                              <span class="text">9 August 14</span>
                             </div>
+                            #1
                         </div>
-
-                        
-                    </div>
-                </div>
-                
+                   </div>
+                   <div class="small-6 columns">
+                       <div class="page">
+                            <div class="sticker">
+                              <span class="text">9 August 14</span>
+                            </div>
+                            #2
+                        </div>
+                   </div>
+               </div>
                 
                 
                 <!--   After all html content Your scripts -->
@@ -129,6 +145,7 @@
                         $("#letter-container h2 a").lettering();
                     });
                 </script>
+                              
                 <script>
                     (function() {
                         new Slideshow( document.getElementById( 'slideshow-1' ) );
